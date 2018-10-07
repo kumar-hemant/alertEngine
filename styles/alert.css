@@ -1,0 +1,57 @@
+.alert-container {
+    padding: 10px 20px 10px 45px;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.alert-container__close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-family: monospace;
+    margin: 0px;
+    width: 15px;
+    height: 15px;
+}
+
+.alert-container__message {
+    margin-bottom: 0px;
+}
+
+.alert-container__icon {
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+
+.js-alerts-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    min-width: 20%;
+    max-width: 25%;
+}
+
+.alert-container__success {
+    background-color: rgba(0, 128, 0, 0.63);
+}
+
+.alert-container__error {
+    background-color: rgba(205, 92, 92, 0.63);
+}
+
+.alert-container__notify {
+    background-color: rgba(237, 213, 216, 0.63);
+}
+
+.foo {
+    color: white;
+    background-color: brown;
+    font-family: cursive;
+}
+
